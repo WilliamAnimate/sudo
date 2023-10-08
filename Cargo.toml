@@ -1,0 +1,28 @@
+[package]
+name = "sudo"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+winres = "0.1"
+
+[dependencies]
+
+[profile.release]
+opt-level = 'z' # this program is extremely simple, it would be a waste to make it fast, so make it slow instead
+lto = true
+strip = true
+
+[package.metadata.winres]
+ProductName = "sudo!"
+OriginalFilename = "sudo.exe"
+InternalName = "sudo"
+FileDescription = "run stuff as trusted installer!"
+CompanyName = ""
+LegalTrademarks = ""
+LegalCopyright = "WilliamAnimate"
+PrivateBuild = ""
+SpecialBuild = ""
+Comments = ""
