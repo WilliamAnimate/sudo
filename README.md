@@ -6,6 +6,9 @@
 
 a convient (Windows) command-line utility for running processes as TrustedInstaller.
 
+> [!IMPORTANT]
+> TrustedInstaller is the equivalent of the superuser in Linux; THIS WILL GRANT MORE PRIVILEGES THAN [MICROSOFT'S SUDO](https://github.com/microsoft/sudo)
+
 > [!NOTE]
 > **THIS PROJECT DEPENDS ON [MinSudo!](https://github.com/M2Team/NanaRun/releases)**, this project is literally a wrapper for it.
 
