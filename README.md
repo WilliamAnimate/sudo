@@ -10,14 +10,14 @@ a convient (Windows) command-line utility for running processes as TrustedInstal
 > TrustedInstaller is the equivalent of the superuser in Linux; THIS WILL GRANT MORE PRIVILEGES THAN [MICROSOFT'S SUDO](https://github.com/microsoft/sudo)
 
 > [!NOTE]
-> **THIS PROJECT DEPENDS ON [MinSudo!](https://github.com/M2Team/NanaRun/releases)**, this project is literally a wrapper for it.
+> **THIS PROJECT DEPENDS ON [MinSudo](https://github.com/M2Team/NanaRun/releases)**. this project is literally a wrapper for it.
 
 ## How to
 
 simply run `sudo` in any command prompt, let that be powershell or command prompt, and then it'll upgrade it to TrustedInstaller. (in some edge cases, it makes a new window. wtf?)
 
 > [!WARNING]
-> TrustedInstaller is extremely privilleged, be extremely careful when executing files, as it can cause **IRREVERSIBLE** damage to your operating system.
+> TrustedInstaller is extremely privilleged. Treat it as the superuser in Linux, as it really is.
 
 ~~Maybe at some point i'll add functionality to run other executables by sudo instead of just opening the prompt.~~
 
