@@ -57,4 +57,4 @@ try to delete some random file in system32, say, for example, `hal.dll`, it will
 
 So in other words, TrustedInstaller is the "system account" with the highest privilleges, this is the equivalent of the `sudo` command in unix systems.
 
-**tl;dr** TrustedInstaller is the `sudo` in Windows.
+**tl;dr** TrustedInstaller is the superuser in Windows.
